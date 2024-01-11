@@ -1,6 +1,6 @@
 import streamlit as st
 from google.cloud import bigquery
-'''
+
 # Set your GCP project ID
 project_id = 'q-gcp-00863-fsihackathon-23-12'
 
@@ -25,5 +25,4 @@ st.write("## BigQuery Table Contents:")
 for row in results:
     st.write(row)
 
-'''
-t.write('hello')
+st.write('hello')
